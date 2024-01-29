@@ -1,7 +1,9 @@
+require('dotenv').config();
+
 const weatherForm = document.querySelector(".weatherForm")
 const cityName = document.querySelector(".cityName")
 const card = document.querySelector(".card")
-const apiKey = process.env.WEATHER_APP_API_KEY
+const apiKey = "" // Enter Your Own Api Key
 
 weatherForm.addEventListener("submit", async event => {
 
